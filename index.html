@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO для mudro.online -->
+    <title>Интерактивная школа МУДРО | Курсы английского, немецкого, французского в Туапсе</title>
+    <meta name="description" content="Интерактивная школа МУДРО в Туапсе: курсы иностранных языков для детей и взрослых, подготовка к ЕГЭ, русский язык и математика 1-7 класс. Лицензия, налоговый вычет 13%.">
+    
+    <!-- Шрифты и иконки -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/tabler-icons.min.css">
+    
+    <!-- Основные стили -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+    <!-- ===== ШАПКА ===== -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-inner">
+                <!-- Логотип с цветами -->
+                <a href="#" class="logo">
+                    <div class="logo-text">
+                        <span class="logo-green">ИНТЕРАКТИВНАЯ ШКОЛА</span><br>
+                        <span class="logo-blue">МУДРО</span>
+                        <span class="logo-sub">Туапсе • с 2018 года</span>
+                    </div>
+                </a>
+
+                <!-- Навигация (десктоп) -->
+                <nav class="nav">
+                    <a href="#courses">Курсы</a>
+                    <a href="#services">Услуги и цены</a>
+                    <a href="#why">О школе</a>
+                    <a href="#reviews">Отзывы</a>
+                    <a href="#contact">Контакты</a>
+                </nav>
+
+                <!-- Контакты в шапке -->
+                <div class="header-contacts">
+                    <a href="tel:+79002846600" class="header-phone">
+                        <i class="ti ti-phone"></i> 8 (900) 284-66-00
+                    </a>
+                    <a href="mailto:mudro.is@yandex.ru" class="header-email">mudro.is@yandex.ru</a>
+                    <button class="btn-header" data-action="open-form">Записаться</button>
+                </div>
+
+                <!-- Кнопка мобильного меню -->
+                <button class="mobile-toggle" data-action="toggle-mobile">
+                    <i class="ti ti-menu-2"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Мобильное меню -->
+    <div class="mobile-nav" id="mobileNav">
+        <a href="#courses">Курсы</a>
+        <a href="#services">Услуги и цены</a>
+        <a href="#why">О школе</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contact">Контакты</a>
+        <a href="tel:+79002846600">📞 8 (900) 284-66-00</a>
+        <a href="mailto:mudro.is@yandex.ru">✉️ mudro.is@yandex.ru</a>
+        <button class="btn btn-primary" data-action="open-form" style="margin-top:16px;">
+            <i class="ti ti-pencil"></i> Записаться на урок
+        </button>
+    </div>
+
+    <main>
+        <!-- ===== ГЛАВНЫЙ ЭКРАН ===== -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-inner">
+                    <div class="hero-content">
+                        <div class="hero-badge">
+                            <i class="ti ti-award"></i>
+                            Лицензия № Л035-01218-23/01091451
+                        </div>
+                        
+                        <h1>
+                            <span class="green">Говорите свободно.</span><br>
+                            <span class="blue">Достигайте большего.</span>
+                        </h1>
+                        
+                        <p class="hero-subtitle">
+                            <span class="green">Интерактивная школа</span> <span class="blue">МУДРО</span> — 
+                            английский, немецкий, французский, испанский для детей и взрослых. 
+                            Русский язык и математика 1–7 классов.
+                        </p>
+                        
+                        <div class="hero-features">
+                            <div class="hero-feature">
+                                <i class="ti ti-map-pin"></i>
+                                <span>Туапсе, ул. Победы, 7 • Онлайн по всему миру</span>
+                            </div>
+                            <div class="hero-feature">
+                                <i class="ti ti-receipt"></i>
+                                <span>Налоговый вычет 13% на обучение</span>
+                            </div>
+                            <div class="hero-feature">
+                                <i class="ti ti-message-circle"></i>
+                                <span>80% практики — говорите с первого урока</span>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary" data-action="open-form">
+                                <i class="ti ti-pencil"></i> Записаться на бесплатный урок
+                            </button>
+                            <a href="#courses" class="btn btn-secondary">
+                                <i class="ti ti-books"></i> Выбрать курс
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-image">
+                        <!-- Замените на реальное фото школы -->
+                        <img src="https://via.placeholder.com/600x400/205EDC/FFFFFF?text=Школа+МУДРО" alt="Занятие в школе МУДРО">
+                        
+                        <div class="hero-stats">
+                            <div class="hero-stat">
+                                <div class="hero-stat-number">8+</div>
+                                <div class="hero-stat-label">Лет опыта</div>
+                            </div>
+                            <div class="hero-stat">
+                                <div class="hero-stat-number">600+</div>
+                                <div class="hero-stat-label">Выпускников</div>
+                            </div>
+                            <div class="hero-stat">
+                                <div class="hero-stat-number">4.9★</div>
+                                <div class="hero-stat-label">Рейтинг</div>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-float">
+                            <i class="ti ti-certificate"></i>
+                            <span>Официальный сертификат</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ПРОБЛЕМЫ КЛИЕНТОВ ===== -->
+        <section class="section problems">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge"><i class="ti ti-help"></i> Знакомо?</div>
+                    <h2>Решаем ваши задачи</h2>
+                    <p>Мы понимаем, что стоит за каждым запросом — и знаем, как помочь</p>
+                </div>
+                
+                <div class="problems-grid">
+                    <div class="problem-card animate-on-scroll">
+                        <div class="problem-icon"><i class="ti ti-ghost"></i></div>
+                        <h3>Ребёнок боится говорить?</h3>
+                        <p>Научим не бояться ошибок через игровые методики и TPR</p>
+                    </div>
+                    <div class="problem-card animate-on-scroll">
+                        <div class="problem-icon"><i class="ti ti-clipboard-check"></i></div>
+                        <h3>Нужно сдать ЕГЭ/ОГЭ?</h3>
+                        <p>Интенсивная подготовка с фокусом на формат экзамена</p>
+                    </div>
+                    <div class="problem-card animate-on-scroll">
+                        <div class="problem-icon"><i class="ti ti-plane"></i></div>
+                        <h3>Планируете переезд?</h3>
+                        <p>Разговорный курс для жизни за границей «здесь и сейчас»</p>
+                    </div>
+                    <div class="problem-card animate-on-scroll">
+                        <div class="problem-icon"><i class="ti ti-calculator"></i></div>
+                        <h3>Математика — сложно?</h3>
+                        <p>Вернём интерес к учёбе и подтянем успеваемость за месяц</p>
+                    </div>
+                </div>
+                
+                <div class="problems-cta animate-on-scroll">
+                    <button class="btn btn-primary" data-action="open-form">
+                        <i class="ti ti-search"></i> Пройти бесплатную диагностику
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== КУРСЫ ===== -->
+        <section class="section courses" id="courses">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge"><i class="ti ti-books"></i> Направления</div>
+                    <h2>Найдите свой курс</h2>
+                    <p>Выберите предмет и формат — мы подберём идеальную программу</p>
+                </div>
+                
+                <!-- Фильтры -->
+                <div class="course-filter animate-on-scroll">
+                    <button class="filter-btn active" data-filter="all">Все курсы</button>
+                    <button class="filter-btn" data-filter="language">🌍 Языки</button>
+                    <button class="filter-btn" data-filter="kids">👶 Для детей</button>
+                    <button class="filter-btn" data-filter="adults">🧑 Для взрослых</button>
+                    <button class="filter-btn" data-filter="exam">📝 Экзамены</button>
+                    <button class="filter-btn" data-filter="school">📚 Школа 1-7</button>
+                </div>
+                
+                <!-- Сетка курсов -->
+                <div class="courses-grid" id="coursesGrid">
+                    
+                    <!-- Английский для детей -->
+                    <div class="course-card" data-categories="language,kids">
+                        <div class="course-card-header">
+                            <div class="course-flag">🇬🇧</div>
+                            <h3>Английский для детей</h3>
+                            <span class="course-age">3–7 лет • Игровой формат</span>
+                        </div>
+                        <div class="course-card-body">
+                            <ul class="course-features">
+                                <li><i class="ti ti-check"></i> Методики TPR, CLIL, TBL</li>
+                                <li><i class="ti ti-check"></i> Мини-группы до 5 человек</li>
+                                <li><i class="ti ti-check"></i> Развитие речи через игры</li>
+                                <li><i class="ti ti-check"></i> Заговорит за 3 месяца</li>
+                            </ul>
+                        </div>
+                        <div class="course-card-footer">
+                            <div class="course-price">от 4 500 ₽ <small>/ мес</small></div>
+                            <button class="btn-course" data-action="open-form">Записаться</button>
+                        </div>
+                        <div class="course-hover">
+                            <h4>Английский для малышей</h4>
+                            <p>Ваш ребёнок будет учить язык с удовольствием — через игры, песни и творчество. Без зубрёжки.</p>
+                            <button class="btn btn-primary" data-action="open-form">Записаться на пробный урок</button>
+                        </div>
+                    </div>
+
+                    <!-- Английский для школьников -->
+                    <div class="course-card" data-categories="language,kids,exam">
+                        <div class="course-card-header">
+                            <div class="course-flag">🎓</div>
+                            <h3>Английский для школьников</h3>
+                            <span class="course-age">8–15 лет • Школа + экзамены</span>
+                        </div>
+                        <div class="course-card-body">
+                            <ul class="course-features">
+                                <li><i class="ti ti-check"></i> Подтянем школьную программу</li>
+                                <li><i class="ti ti-check"></i> Подготовка к ОГЭ и ЕГЭ</li>
+                                <li><i class="ti ti-check"></i> Cambridge, IELTS</li>
+                                <li><i class="ti ti-check"></i> Индивидуальный план</li>
+                            </ul>
+                        </div>
+                        <div class="course-card-footer">
+                            <div class="course-price">от 5 000 ₽ <small>/ мес</small></div>
+                            <button class="btn-course" data-action="open-form">Записаться</button>
+                        </div>
+                        <div class="course-hover">
+                            <h4>Английский + ЕГЭ/ОГЭ</h4>
+                            <p>Комплексная подготовка: школьная программа, разговорная практика и отработка формата экзамена.</p>
+                            <button class="btn btn-primary" data-action="open-form">Записаться на пробный урок</button>
+                        </div>
+                    </div>
+
+                    <!-- Английский для взрослых -->
+                    <div class="course-card" data-categories="language,adults">
+                        <div class="course-card-header">
+                            <div class="course-flag">🇬🇧</div>
+                            <h3>Английский для взрослых</h3>
+                            <span class="course-age">18+ • С нуля до продвинутого</span>
+                        </div>
+                        <div class="course-card-body">
+                            <ul class="course-features">
+                                <li><i class="ti ti-check"></i> Для путешествий и переезда</li>
+                                <li><i class="ti ti-check"></i> Деловой и IT-английский</li>
+                                <li><i class="ti ti-check"></i> Интенсив «за 2 месяца»</li>
+                                <li><i class="ti ti-check"></i> Онлайн и очно</li>
+                            </ul>
+                        </div>
+                        <div class="course-card-footer">
+                            <div class="course-price">от 5 500 ₽ <small>/ мес</small></div>
+                            <button class="btn-course" data-action="open-form">Записаться</button>
+                        </div>
+                        <div class="course-hover">
+                            <h4>Английский для взрослых</h4>
+                            <p>80% времени на уроке вы говорите. Подберём программу под вашу цель — карьера, путешествия или переезд.</p>
+                            <button class="btn btn-primary" data-action="open-form">Записаться на пробный урок</button>
+                        </div>
+                    </div>
+
+                    <!-- Немецкий -->
+                    <div class="course-card" data-categories="language,adults">
+                        <div class="course-card-header">
+                            <div class="course-flag">🇩🇪</div>
+                            <h3>Немецкий язык</h3>
+                            <span class="course-age">С нуля • Goethe-институт</span>
+                        </div>
+                        <div class="course-card-body">
+                            <ul class="course-features">
+                                <li><i class="ti ti-check"></i> Подготовка к Goethe-Zertifikat</li>
+                                <li><i class="ti ti-check"></i> Для работы и переезда</li>
+                                <li><i class="ti ti-check"></i> Разговорный клуб</li>
+                                <li><i class="ti ti-check"></i> Гибкий график</li>
+                            </ul>
+                        </div>
+                        <div class="course-card-footer">
+                            <div class="course-price">от 5 500 ₽ <small>/ мес</small></div>
+                            <button class="btn-course" data-action="open-form">Записаться</button>
+                        </div>
+                        <div class="course-hover">
+                            <h4>Немецкий с нуля</h4>
+                            <p>От первого «Guten Tag» до свободного общения. Подготовим к экзаменам Goethe-института.</p>
+                            <button class="btn btn-primary" data-action="open-form">Записаться на пробный урок</button>
+                        </div>
+                    </div>
+
+                    <!-- Французский -->
+                    <div class="course-card" data-categories="language,adults">
+                        <div class="course-card-header">
+                            <div class="course-flag">🇫🇷</div>
+                            <h3>Французский язык</h3>
+                            <span class="course-age">Для путешествий и учёбы</span>
+                        </div>
+                        <div class="course-card-body">
+                            <ul class="course-features">
+                                <li><i class="ti ti-check"></i> Для путешествий по Франции</li>
+                                <li><i class="ti ti-check"></i> Подготовка к DELF/DALF</li>
+                                <li><i class="ti ti-check"></i> Культура и коммуникация</li>
+                                <li><i class="ti ti-check"></i> Индивидуальный подход</li>
+                            </ul>
+                        </div>
+                        <div class="course-card-footer">
+                            <div class="course-price">от 5 500 ₽ <small>/ мес</small></div>
+                            <button class="btn-course" data-action="open-form">Записаться</button>
+                        </div>
+                        <div class="course-hover">
+                            <h4>Французский для жизни</h4>
+                            <p>Научим не только языку, но и культуре. Идеально для путешествий, учёбы и переезда во Францию.</p>
+                            <button class="btn btn-primary" data-action="open-form">Записаться на пробный урок</button>
+                        </div>
+                    </div>
+
+                    <!-- Испанский -->
+                    <div class="course-card" data-categories="language,adults">
+                        <div class="course-card-header">
+                            <div class="course-flag">🇪🇸</div>
+                            <h3>Испанский язык</h3>
+                            <span class="course-age">Для путешествий и бизнеса</span>
+                        </div>
+                        <div class="course-card-body">
+                            <ul class="course-features">
+                                <li><i class="ti ti-check"></i> Подготовка к DELE</li>
+                                <li><i class="ti ti-check"></i> Разговорный испанский</li>
+                                <li><i class="ti ti-check"></i> Бизнес-испанский</li>
+                                <li><i class="ti ti-check"></i> Группы и индивидуально</li>
+                            </ul>
+                        </div>
+                        <div class="course-card-footer">
+                            <div class="course-price">от 5 500 ₽ <small>/ мес</small></div>
+                            <button class="btn-course" data-action="open-form">Записаться</button>
+                        </div>
+                        <div class="course-hover">
+                            <h4>Испанский для взрослых</h4>
+                            <p>Заговорите по-испански за несколько месяцев. Практика с первого урока, живое общение.</p>
+                            <button class="btn btn-primary" data-action="open-form">Записаться на пробный урок</button>
+                        </div>
+                    </div>
+
+                    <!-- Русский язык -->
+                    <div class="course-card" data-categories="school">
+                        <div class="course-card-header">
+                            <div class="course-flag">📖</div>
+                            <h3>Русский язык</h3>
+                            <span class="course-age">1–7 классы • Школьная программа</span>
+                        </div>
+                        <div class="course-card-body">
+                            <ul class="course-features">
+                                <li><i class="ti ti-check"></i> Повышение успеваемости</li>
+                                <li><i class="ti ti-check"></i> Подготовка к ВПР</li>
+                                <li><i class="ti ti-check"></i> Устранение пробелов</li>
+                                <li><i class="ti ti-check"></i> Помощь с ДЗ</li>
+                            </ul>
+                        </div>
+                        <div class="course-card-footer">
+                            <div class="course-price">от 4 000 ₽ <small>/ мес</small></div>
+                            <button class="btn-course" data-action="open-form">Записаться</button>
+                        </div>
+                        <div class="course-hover">
+                            <h4>Русский язык 1-7 класс</h4>
+                            <p>Интерактивные методики, которые вернут интерес к предмету. Устраняем пробелы и повышаем оценки.</p>
+                            <button class="btn btn-primary" data-action="open-form">Записаться на пробный урок</button>
+                        </div>
+                    </div>
+
+                    <!-- Математика -->
+                    <div class="course-card" data-categories="school">
+                        <div class="course-card-header">
+                            <div class="course-flag">🔢</div>
+                            <h3>Математика</h3>
+                            <span class="course-age">1–7 классы • Понятно и интересно</span>
+                        </div>
+                        <div class="course-card-body">
+                            <ul class="course-features">
+                                <li><i class="ti ti-check"></i> Вернём интерес к математике</li>
+                                <li><i class="ti ti-check"></i> Подготовка к ВПР</li>
+                                <li><i class="ti ti-check"></i> Индивидуальный подход</li>
+                                <li><i class="ti ti-check"></i> Результат за месяц</li>
+                            </ul>
+                        </div>
+                        <div class="course-card-footer">
+                            <div class="course-price">от 4 000 ₽ <small>/ мес</small></div>
+                            <button class="btn-course" data-action="open-form">Записаться</button>
+                        </div>
+                        <div class="course-hover">
+                            <h4>Математика 1-7 класс</h4>
+                            <p>Перестанет быть «страшной». Объясняем просто, на примерах из жизни. Повышаем уверенность.</p>
+                            <button class="btn btn-primary" data-action="open-form">Записаться на пробный урок</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== УСЛУГИ И ЦЕНЫ ===== -->
+        <section class="section services" id="services">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge"><i class="ti ti-price-tag"></i> Услуги и цены</div>
+                    <h2>Прозрачные условия</h2>
+                    <p>Все цены актуальны. Точную стоимость подберём на бесплатной диагностике</p>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Языковые курсы -->
+                    <div class="service-card animate-on-scroll">
+                        <h3><i class="ti ti-language"></i> Иностранные языки</h3>
+                        <ul>
+                            <li><i class="ti ti-check"></i> Английский, немецкий, французский, испанский</li>
+                            <li><i class="ti ti-check"></i> Группы до 5 человек или индивидуально</li>
+                            <li><i class="ti ti-check"></i> 2 занятия в неделю по 60/90 минут</li>
+                            <li><i class="ti ti-check"></i> Очно в Туапсе или онлайн</li>
+                        </ul>
+                        <div class="service-price">от 4 500 ₽ <small>/ месяц</small></div>
+                        <button class="btn btn-green" data-action="open-form">Рассчитать мой курс</button>
+                    </div>
+
+                    <!-- Подготовка к экзаменам -->
+                    <div class="service-card animate-on-scroll">
+                        <h3><i class="ti ti-clipboard-check"></i> Подготовка к экзаменам</h3>
+                        <ul>
+                            <li><i class="ti ti-check"></i> ОГЭ / ЕГЭ по английскому</li>
+                            <li><i class="ti ti-check"></i> Международные: IELTS, Cambridge, Goethe, DELE</li>
+                            <li><i class="ti ti-check"></i> Интенсивы перед экзаменом</li>
+                            <li><i class="ti ti-check"></i> Пробные тесты и разбор ошибок</li>
+                        </ul>
+                        <div class="service-price">от 5 500 ₽ <small>/ месяц</small></div>
+                        <button class="btn btn-green" data-action="open-form">Подготовиться к экзамену</button>
+                    </div>
+
+                    <!-- Школьные предметы -->
+                    <div class="service-card animate-on-scroll">
+                        <h3><i class="ti ti-school"></i> Русский и математика 1-7 класс</h3>
+                        <ul>
+                            <li><i class="ti ti-check"></i> Подтянем школьную программу</li>
+                            <li><i class="ti ti-check"></i> Подготовка к ВПР</li>
+                            <li><i class="ti ti-check"></i> Помощь с домашними заданиями</li>
+                            <li><i class="ti ti-check"></i> Устранение пробелов в знаниях</li>
+                        </ul>
+                        <div class="service-price">от 4 000 ₽ <small>/ месяц</small></div>
+                        <button class="btn btn-green" data-action="open-form">Улучшить успеваемость</button>
+                    </div>
+
+                    <!-- Дополнительные услуги -->
+                    <div class="service-card animate-on-scroll">
+                        <h3><i class="ti ti-gift"></i> Дополнительные услуги</h3>
+                        <ul>
+                            <li><i class="ti ti-check"></i> Перевод документов (6 языков)</li>
+                            <li><i class="ti ti-check"></i> Нотариальное заверение</li>
+                            <li><i class="ti ti-check"></i> Кружки, мастер-классы, конкурсы</li>
+                            <li><i class="ti ti-check"></i> Летние языковые площадки</li>
+                        </ul>
+                        <div class="service-price">от 1 500 ₽ <small>/ услуга</small></div>
+                        <button class="btn btn-green" data-action="open-form">Узнать подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ПОЧЕМУ МЫ ===== -->
+        <section class="section why-us" id="why">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge"><i class="ti ti-sparkles"></i> Почему мы</div>
+                    <h2>Факты, а не обещания</h2>
+                    <p>Не обещания — а факты, которые работают на результат</p>
+                </div>
+                
+                <div class="why-grid">
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon"><i class="ti ti-license"></i></div>
+                        <h3>Официальная лицензия</h3>
+                        <p>Работаем по лицензии Минобразования № Л035-01218-23/01091451</p>
+                    </div>
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon"><i class="ti ti-receipt"></i></div>
+                        <h3>Налоговый вычет 13%</h3>
+                        <p>Верните часть расходов на обучение через налоговый вычет</p>
+                    </div>
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon"><i class="ti ti-message"></i></div>
+                        <h3>80% практики</h3>
+                        <p>Не лекции, а живое общение. Говорите с первого занятия</p>
+                    </div>
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon"><i class="ti ti-target"></i></div>
+                        <h3>Индивидуальный план</h3>
+                        <p>Программа под цель ученика — не шаблон, а маршрут к результату</p>
+                    </div>
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon"><i class="ti ti-gamepad"></i></div>
+                        <h3>Интерактивные методики</h3>
+                        <p>TBL, CLIL, TPR, игровые технологии — учимся через действие</p>
+                    </div>
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon"><i class="ti ti-laptop"></i></div>
+                        <h3>Онлайн и офлайн</h3>
+                        <p>Группы и индивидуально, очно в Туапсе или онлайн из любой точки</p>
+                    </div>
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon"><i class="ti ti-home"></i></div>
+                        <h3>Комфорт и безопасность</h3>
+                        <p>Чистые классы, удобная мебель, питьевая вода, санузел</p>
+                    </div>
+                    <div class="why-card animate-on-scroll">
+                        <div class="why-icon"><i class="ti ti-certificate"></i></div>
+                        <h3>Сертификат по окончании</h3>
+                        <p>Официальный документ о прохождении курса и уровне знаний</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ВИДЕО И ВИРТУАЛЬНЫЙ ТУР ===== -->
+        <section class="section video-section">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge"><i class="ti ti-video"></i> Посмотрите</div>
+                    <h2>Школа в действии</h2>
+                    <p>Настоящие уроки, настоящие эмоции, настоящий результат</p>
+                </div>
+                
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; max-width: 900px; margin: 0 auto;">
+                    <!-- Видео о школе -->
+                    <a href="https://vk.com/video-211482634_456239169" target="_blank" class="video-wrapper animate-on-scroll">
+                        <div class="video-placeholder">
+                            <div class="play-btn"><i class="ti ti-player-play-filled"></i></div>
+                            <p>▶ Видео о школе МУДРО</p>
+                        </div>
+                    </a>
+                    
+                    <!-- Виртуальный тур -->
+                    <a href="https://yandex.ru/maps/1058/tuapse/?l=stv%2Csta&ll=39.079567%2C44.098419&mode=poi&panorama%5Bdirection%5D=314.918249%2C-2.698467&panorama%5Bfull%5D=true&panorama%5Bpoint%5D=39.079754%2C44.098480&panorama%5Bspan%5D=116.810992%2C60.000000&poi%5Bpoint%5D=39.079566%2C44.098445&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D191175697645&utm_source=share&z=20" target="_blank" class="video-wrapper animate-on-scroll" style="background: linear-gradient(135deg, #28A745, #205EDC);">
+                        <div class="video-placeholder">
+                            <div class="play-btn"><i class="ti ti-360-view"></i></div>
+                            <p>🔄 Виртуальный тур по школе</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== ОТЗЫВЫ ===== -->
+        <section class="section testimonials" id="reviews">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge"><i class="ti ti-star"></i> Отзывы</div>
+                    <h2>Что говорят наши ученики</h2>
+                    <p>Реальные истории реальных людей</p>
+                </div>
+                
+                <div class="testimonials-slider animate-on-scroll">
+                    <div class="testimonials-track" id="testimonialsTrack">
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <p class="testimonial-text">«Дочь за 3 месяца перестала бояться говорить по-английски! Анна Александровна — волшебница. Теперь ребёнок сам просится на урок ❤️»</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">М</div>
+                                <div>
+                                    <div class="testimonial-name">Мария Иванова</div>
+                                    <div class="testimonial-role">Мама Алисы, 9 лет</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <p class="testimonial-text">«Сдал IELTS на 7.0, хотя начинал с нуля. Реально работают! Гибкий график, удобная платформа для онлайн-занятий.»</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">Д</div>
+                                <div>
+                                    <div class="testimonial-name">Дмитрий К.</div>
+                                    <div class="testimonial-role">IT-специалист, 24 года</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <p class="testimonial-text">«Сын стал получать пятёрки по математике. За месяц! Преподаватель объясняет так, что даже мне стало понятно 😄»</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">Е</div>
+                                <div>
+                                    <div class="testimonial-name">Елена Петрова</div>
+                                    <div class="testimonial-role">Мама Артёма, 10 лет</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-stars">★★★★★</div>
+                            <p class="testimonial-text">«Учил немецкий для переезда в Германию. Сдал Goethe-Zertifikat B1 с первого раза. Спасибо за системный подход!»</p>
+                            <div class="testimonial-author">
+                                <div class="testimonial-avatar">А</div>
+                                <div>
+                                    <div class="testimonial-name">Алексей С.</div>
+                                    <div class="testimonial-role">Инженер, 32 года</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-btn" data-action="prev-slide"><i class="ti ti-chevron-left"></i></button>
+                    <button class="slider-btn" data-action="next-slide"><i class="ti ti-chevron-right"></i></button>
+                </div>
+                
+                <p style="text-align:center;margin-top:24px;font-size:14px;color:var(--text-light);">
+                    <a href="https://vk.com/interactive.school.mudro" target="_blank" style="color:var(--blue);font-weight:500;">
+                        Больше отзывов в нашей группе ВКонтакте →
+                    </a>
+                </p>
+            </div>
+        </section>
+
+        <!-- ===== КАЛЬКУЛЯТОР КУРСА ===== -->
+        <section class="section calculator" id="calc">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge"><i class="ti ti-calculator"></i> Калькулятор</div>
+                    <h2>Рассчитайте свой курс</h2>
+                    <p>3 шага — и вы узнаете ориентировочный план обучения</p>
+                </div>
+                
+                <div class="calc-container animate-on-scroll">
+                    <div class="calc-step">
+                        <div class="calc-step-title"><span>1</span> Ваш текущий уровень</div>
+                        <div class="calc-options" id="calcLevel">
+                            <button class="calc-option" data-calc="level" data-value="С нуля">С нуля</button>
+                            <button class="calc-option" data-calc="level" data-value="Знаю основы">Знаю основы</button>
+                            <button class="calc-option" data-calc="level" data-value="Средний (B1)">Средний (B1)</button>
+                            <button class="calc-option" data-calc="level" data-value="Продвинутый">Продвинутый</button>
+                        </div>
+                    </div>
+                    
+                    <div class="calc-step">
+                        <div class="calc-step-title"><span>2</span> Ваша цель</div>
+                        <div class="calc-options" id="calcGoal">
+                            <button class="calc-option" data-calc="goal" data-value="Сдать экзамен">Сдать экзамен</button>
+                            <button class="calc-option" data-calc="goal" data-value="Для путешествий">Для путешествий</button>
+                            <button class="calc-option" data-calc="goal" data-value="Для карьеры">Для карьеры</button>
+                            <button class="calc-option" data-calc="goal" data-value="Просто интересно">Просто интересно</button>
+                            <button class="calc-option" data-calc="goal" data-value="Подтянуть школу">Подтянуть школу</button>
+                        </div>
+                    </div>
+                    
+                    <div class="calc-step">
+                        <div class="calc-step-title"><span>3</span> Сколько времени готовы уделять?</div>
+                        <div class="calc-options" id="calcTime">
+                            <button class="calc-option" data-calc="time" data-value="2 раза в неделю">2 раза в неделю</button>
+                            <button class="calc-option" data-calc="time" data-value="3 раза в неделю">3 раза в неделю</button>
+                            <button class="calc-option" data-calc="time" data-value="Интенсив (ежедневно)">Интенсив</button>
+                        </div>
+                    </div>
+                    
+                    <div class="calc-result" id="calcResult">
+                        <h4>📊 Ваш ориентировочный план:</h4>
+                        <div class="calc-result-item"><span>Длительность курса</span><strong id="calcDuration">—</strong></div>
+                        <div class="calc-result-item"><span>Стоимость</span><strong id="calcPrice">—</strong></div>
+                        <div class="calc-result-item"><span>Ожидаемый результат</span><strong id="calcOutcome">—</strong></div>
+                        <div class="calc-result-actions">
+                            <button class="btn btn-primary" data-action="open-form"><i class="ti ti-pencil"></i> Записаться на диагностику</button>
+                            <button class="btn btn-secondary" onclick="alert('Программа курса будет отправлена на ваш email после записи.')"><i class="ti ti-download"></i> Скачать программу</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== КОНТАКТЫ ===== -->
+        <section class="section contact" id="contact">
+            <div class="container">
+                <div class="section-header animate-on-scroll">
+                    <div class="section-badge"><i class="ti ti-map-pin"></i> Контакты</div>
+                    <h2>Ждём вас в МУДРО</h2>
+                    <p>Приходите на бесплатную диагностику — покажем, как проходят занятия</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info animate-on-scroll">
+                        <h3>Свяжитесь с нами</h3>
+                        
+                        <div class="contact-item">
+                            <div class="contact-item-icon"><i class="ti ti-map-pin"></i></div>
+                            <div class="contact-item-text">
+                                <h4>Адрес</h4>
+                                <p>г. Туапсе, ул. Победы, 7 (1 этаж)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-item-icon"><i class="ti ti-phone"></i></div>
+                            <div class="contact-item-text">
+                                <h4>Телефон</h4>
+                                <p><a href="tel:+79002846600">8 (900) 284-66-00</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-item-icon"><i class="ti ti-mail"></i></div>
+                            <div class="contact-item-text">
+                                <h4>Email</h4>
+                                <p><a href="mailto:mudro.is@yandex.ru">mudro.is@yandex.ru</a></p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-item-icon"><i class="ti ti-clock"></i></div>
+                            <div class="contact-item-text">
+                                <h4>Режим работы</h4>
+                                <p>Пн–Пт: 9:00–19:00<br>Сб: 9:00–17:00</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Социальные сети -->
+                        <div class="contact-links">
+                            <a href="https://max.ru/u/f9LHodD0cOLpCo-g3yd01qhrdL2Lnb8Hl4mfgkfOelmbHDLswMK5okXWgOk" target="_blank" class="contact-link max">
+                                <i class="ti ti-brand-max"></i> Написать в MAX
+                            </a>
+                            <a href="https://max.ru/join/pXCpf-5gvCTT9nWUq19m6_tWo-S4qu6OtzmArAWYVzs" target="_blank" class="contact-link max">
+                                <i class="ti ti-brand-max"></i> Канал школы в MAX
+                            </a>
+                            <a href="https://vk.com/interactive.school.mudro" target="_blank" class="contact-link vk">
+                                <i class="ti ti-brand-vk"></i> Группа ВКонтакте
+                            </a>
+                            <a href="https://vk.com/im/channels/-233255096" target="_blank" class="contact-link vk">
+                                <i class="ti ti-brand-vk"></i> Канал школы ВКонтакте
+                            </a>
+                            <a href="mailto:mudro.is@yandex.ru" class="contact-link email">
+                                <i class="ti ti-mail"></i> mudro.is@yandex.ru
+                            </a>
+                            <a href="https://vk.com/video-211482634_456239169" target="_blank" class="contact-link video">
+                                <i class="ti ti-video"></i> Видео о школе
+                            </a>
+                        </div>
+                        
+                        <button class="btn btn-primary" style="margin-top:24px;width:100%;justify-content:center;" data-action="open-form">
+                            <i class="ti ti-pencil"></i> Записаться на бесплатную диагностику
+                        </button>
+                    </div>
+                    
+                    <!-- Карта -->
+                    <div class="contact-map animate-on-scroll">
+                        <iframe src="https://yandex.ru/map-widget/v1/?ll=39.079567%2C44.098419&mode=poi&poi%5Bpoint%5D=39.079566%2C44.098445&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D191175697645&utm_source=share&z=20" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== ПОДВАЛ ===== -->
+    <footer class="footer">
+        <div class="container">
+            <!-- CTA в футере -->
+            <div class="footer-cta">
+                <h3>🎁 Первое занятие — бесплатно!</h3>
+                <p>Оставьте заявку, и мы подберём идеальный курс</p>
+                <form class="footer-form" id="footerForm">
+                    <input type="text" placeholder="Ваше имя" required>
+                    <input type="tel" placeholder="+7 (___) ___-__-__" required>
+                    <select required>
+                        <option value="">Выберите направление</option>
+                        <option>Английский язык</option>
+                        <option>Немецкий язык</option>
+                        <option>Французский язык</option>
+                        <option>Испанский язык</option>
+                        <option>Русский язык (1-7 класс)</option>
+                        <option>Математика (1-7 класс)</option>
+                    </select>
+                    <button type="submit">Получить консультацию</button>
+                </form>
+            </div>
+            
+            <!-- Сетка футера -->
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="#" class="logo">
+                        <div class="logo-text">
+                            <span class="logo-green">ИНТЕРАКТИВНАЯ ШКОЛА</span><br>
+                            <span class="logo-blue">МУДРО</span>
+                        </div>
+                    </a>
+                    <p>Английский, немецкий, французский, испанский для детей и взрослых. Русский язык и математика 1–7 классов. Очно в Туапсе и онлайн по всему миру.</p>
+                    <p style="margin-top:12px;font-size:12px;color:rgba(255,255,255,0.5);">
+                        Лицензия № Л035-01218-23/01091451
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Курсы</h4>
+                    <a href="#courses">Английский язык</a>
+                    <a href="#courses">Немецкий язык</a>
+                    <a href="#courses">Французский язык</a>
+                    <a href="#courses">Испанский язык</a>
+                    <a href="#courses">Русский язык</a>
+                    <a href="#courses">Математика</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Информация</h4>
+                    <a href="#why">О школе</a>
+                    <a href="#services">Услуги и цены</a>
+                    <a href="#reviews">Отзывы</a>
+                    <a href="#calc">Калькулятор</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <a href="tel:+79002846600">8 (900) 284-66-00</a>
+                    <a href="mailto:mudro.is@yandex.ru">mudro.is@yandex.ru</a>
+                    <a href="https://yandex.ru/maps/1058/tuapse/?ll=39.079567%2C44.098419&mode=poi&poi%5Bpoint%5D=39.079566%2C44.098445&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D191175697645&utm_source=share&z=20" target="_blank">г. Туапсе, ул. Победы, 7</a>
+                </div>
+            </div>
+            
+            <!-- Нижняя строка -->
+            <div class="footer-bottom">
+                <p>© 2018–2026 АВТОНОМНАЯ НЕКОММЕРЧЕСКАЯ ОРГАНИЗАЦИЯ ДОПОЛНИТЕЛЬНОГО ОБРАЗОВАНИЯ «ИНТЕРАКТИВНАЯ ШКОЛА «МУДРО». Все права защищены.</p>
+                <div class="footer-legal">
+                    <a href="#">Политика конфиденциальности</a>
+                    <a href="#">Договор оферты</a>
+                    <a href="#">Лицензия</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== ФОРМА ЗАПИСИ (ВНЕШНЯЯ) ===== -->
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup">
+            <div class="popup-header">
+                <div>
+                    <h3>Запись на бесплатный урок</h3>
+                    <p>Заполните форму — мы свяжемся с вами в течение 30 минут</p>
+                </div>
+                <button class="popup-close" data-action="close-form"><i class="ti ti-x"></i></button>
+            </div>
+            <div class="popup-body">
+                <!-- Внешняя форма от Альфа-ЦРМ -->
+                <iframe 
+                    src="https://interaktivnayashkola.s20.online/common/1/form/draw?id=1&baseColor=205EDC&borderRadius=8&css=%2F%2Fcdn.alfacrm.pro%2Flead-form%2Fform.css"
+                    width="100%" 
+                    height="600" 
+                    frameborder="0"
+                    style="border-radius: 12px;"
+                    title="Форма записи">
+                </iframe>
+                <p class="form-note">
+                    Нажимая кнопку, вы соглашаетесь с <a href="#" style="color:var(--blue);">политикой конфиденциальности</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== СКРИПТЫ ===== -->
+    <script src="js/main.js"></script>
+</body>
+</html>
